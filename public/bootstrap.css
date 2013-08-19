@@ -62,6 +62,12 @@ a:hover {
 h1 {
   margin: 0.67em 0;
   font-size: 2em;
+  color: #000; 
+  text-shadow: 
+  -1px -1px 0 #fff, 
+  1px -1px 0 #fff, 
+  -1px 1px 0 #fff, 
+  1px 1px 0 #fff;
 }
 
 abbr[title] {
@@ -359,6 +365,17 @@ hr {
 p {
   margin: 0 0 10px;
 }
+
+p2 {
+  margin: 0 0 10px;
+  color: #fff;
+  text-shadow: 
+  -1px -1px 0 #000, 
+  1px -1px 0 #000, 
+  -1px 1px 0 #000, 
+  1px 1px 0 #000;
+}
+
 
 .lead {
   margin-bottom: 20px;
