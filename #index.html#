@@ -1,0 +1,140 @@
+<DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Armaghan Nabi Behlum</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="public/bootstrap.css" rel="stylesheet">
+    <link href="public/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="public/carousel.css" rel="stylesheet">
+  </head>
+
+
+<!-- Built from this Bootstrap template:
+http://twitter.github.com/bootstrap/examples/carousel.html -->
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <div class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container">
+    	    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+    	      <span class="icon-bar"></span>
+    	      <span class="icon-bar"></span>
+    	      <span class="icon-bar"></span>
+    	    </button>
+            <a class="navbar-brand">Armaghan Behlum</a>
+            <div class="nav-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="">Home</a></li>
+                <li><a href="https://github.com/Armi23">Github</a></li>
+		<li><a href="http://www.linkedin.com/pub/armaghan-behlum/64/8b1/4b9">LinkedIn</a></li>
+		<li><a href="/public/resume.pdf">Resume</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active" style="background-image: url('public/LesionPlot.jpg')">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Neurobiology Research Projects</h1>
+              <p style="color: #fff; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">Projects to measure brain damage and motor learning. </p>
+	      <p><a class="btn btn-large btn-primary" href="https://github.com/Armi23/MATLAB">Learn more</a></p>
+
+            </div>
+          </div>
+        </div>
+        <div class="item" style="background-image: url('public/Eigenvalue.jpg')">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Mini-mathematica package for Python</h1>
+              <p style="color: #fff; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">Functions related to the eigenvalues of matrices. </p>
+              <p><a class="btn btn-large btn-primary" href="https://github.com/Armi23/Eigenvalues">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item" style="background-image: url('public/Harvard.png')">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Unofficial Harvard Windows 8 App</h1>
+              <p style="color: #fff; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">Displays menu and shuttle times. Updates Windows 8 tiles with next or current meal. </p>
+              <p><a class="btn btn-large btn-primary" href="https://github.com/Armi23/Harvard-App">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-right"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->
+
+    <div class="container marketing">
+    <!-- START THE FEATURETTES -->
+    <!-- LesionPlot Featurette-->
+      <div class="featurette">
+        <img class="featurette-image img-circle pull-right" src="public/LesionPlot3.jpg" alt="">
+        <h2 class="featurette-heading">LesionPlot. <span class="text-muted">Measure the length of brain lesions.</span></h2>
+        <p class="lead">Loads images as TIF, outlines brain slice, and measure manually the length of a lesion.</p>
+      </div>
+
+      <hr class="featurette-divider">
+      <!-- Harvard App Featurette-->
+      <div class="featurette">
+        <img class="featurette-image img-circle pull-left" src="public/Splash2.png" alt="">
+        <h2 class="featurette-heading">Unofficial Harvard App. <span class="text-muted">Menus, shuttles, maps.</span></h2>
+        <p class="lead">Live tile updates of main menu options. Shuttle timings. A maps feature is under construction. Unofficial, not endorsed by Harvard.</p>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>
+	  &copy; 2013 - 2014 Armaghan Nabi Behlum |
+	  <a href="http://validator.w3.org/check?uri=http%3A%2F%2Farmaghanbehlum.com%2F">Valid HTML</a>
+	   | Built with <a href="http://getbootstrap.com/">Bootstrap</a> 
+	   | Source code on <a href="https://github.com/Armi23/mywebsite">Github</a>
+
+	</p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+	
+    <script src="public/jquery.js"></script>
+    <script src="public/bootstrap.min.js"></script>
+    <script src="public/holder.js"></script>
+  </body>
+</html>
