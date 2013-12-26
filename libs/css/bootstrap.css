@@ -4221,12 +4221,12 @@ a.list-group-item.active > .badge,
   top: 0;
   bottom: 0;
   left: 0;
-  width: 15%;
+  width: 4%;
   font-size: 20px;
   color: #ffffff;
   text-align: center;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
-  opacity: 0.5;
+  opacity: 0.2;
   filter: alpha(opacity=50);
 }
 
@@ -4289,11 +4289,12 @@ a.list-group-item.active > .badge,
   bottom: 10px;
   left: 50%;
   z-index: 15;
-  width: 120px;
+  width: 60px;
   padding-left: 0;
   margin-left: -60px;
   text-align: center;
   list-style: none;
+  opacity: 0.5;
 }
 
 .carousel-indicators li {
@@ -4304,14 +4305,19 @@ a.list-group-item.active > .badge,
   text-indent: -999px;
   cursor: pointer;
   border: 1px solid #ffffff;
+  background-color: #000000;
   border-radius: 10px;
+  opacity: 0.9;
+
 }
 
 .carousel-indicators .active {
   width: 12px;
   height: 12px;
   margin: 0;
-  background-color: #ffffff;
+  background-color: #0000ff;
+  opacity: 0.6;
+
 }
 
 .carousel-caption {
@@ -4345,6 +4351,20 @@ a.list-group-item.active > .badge,
     right: 20%;
     left: 20%;
     padding-bottom: 30px;
+  }
+  .lesion{
+    right:  18%;
+    left: -10%;
+  }
+  .math{
+    right:  50%;
+    left: 20%;
+    padding-bottom: 4px;
+  }
+  .app{
+    right: 25%;
+    left: -15%;
+    padding-bottom: 0px;
   }
   .carousel-indicators {
     bottom: 20px;
@@ -4675,4 +4695,12 @@ td.visible-print {
   td.hidden-print {
     display: none !important;
   }
+}
+
+.white-back{
+  color: #000;
+}
+
+#myCarousel{
+  padding-top: 15px;
 }

@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
@@ -9,11 +10,14 @@
 		<title>Armaghan Nabi Behlum</title>
 
 		<!-- Bootstrap core CSS : Using carousel template-->
-		<link rel="stylesheet" type="text/css" href="/libs/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="/libs/css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="/libs/css/carousel.css">
 
+		<!-- Glyphicon about http://glyphicons.com/ -->
+		<link rel="stylesheet" type="text/css" href="/libs/css/bootstrap-glyphicons.css">
+
 		<!-- Scrollup Pill Style, also by markgoodyear from http://markgoodyear.com/2013/01/scrollup-jquery-plugin/ -->
-		<link rel="stylesheet" type="text/css" href="/libs/css/pill.css">
+		<link rel="stylesheet" type="text/css" href="/libs/css/image.css">
 
 		<!-- Using headroom.js to make navbar disappear -->
 		<link rel="stylesheet" type="text/css" href="/libs/css/headroom.css">
@@ -24,132 +28,137 @@
 	<body>
 
 		<!-- NAVBAR ================================================== -->
-		<div>					
+		<div>
 			<header>
 				<div class="navbar navbar-inverse">
-		    	  	<div class="container">
-			    	    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
-			    	      <span class="icon-bar"></span>
-			    	      <span class="icon-bar"></span>
-			    	      <span class="icon-bar"></span>
-			    	    </button>
-			            <a class="navbar-brand">Armaghan Behlum</a>
-			            <div class="nav-collapse collapse">
-			              <ul class="nav navbar-nav">
-			                <li class="active"><a href="">Home</a></li>
-			                <li><a href="https://github.com/Armi23">Github</a></li>
-							<li><a href="http://www.linkedin.com/pub/armaghan-behlum/64/8b1/4b9">LinkedIn</a></li>
-							<li><a href="//libs/pdf/resume.pdf">Resume</a></li>
-							<li><a href="mailto:behlum@college.harvard.com">Email me</a></li>
-			              </ul>
-			            </div>
-		          	</div>
-		        </div>
-		    </header>
+					<div class="container">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand">Armaghan Behlum</a>
+						<div class="nav-collapse collapse">
+							<ul class="nav navbar-nav">
+								<li class="active"><a href="">Home</a></li>
+								<li><a href="https://github.com/Armi23">Github</a></li>
+								<li><a href="http://www.linkedin.com/pub/armaghan-behlum/64/8b1/4b9">LinkedIn</a></li>
+								<li><a href="//libs/pdf/resume.pdf">Resume</a></li>
+								<li><a href="mailto:behlum@college.harvard.com">Email me</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</header>
 		</div>
 
-	    <!-- Carousel ================================================== -->
-	    <div id="myCarousel" class="carousel slide">
-	      <!-- Indicators -->
-	      <ol class="carousel-indicators">
-	        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-	        <li data-target="#myCarousel" data-slide-to="1"></li>
-	        <li data-target="#myCarousel" data-slide-to="2"></li>
-	      </ol>
-	      <div class="carousel-inner">
-	        <div class="item active" style="background-image: url('/libs/img/LesionPlot.jpg')">
-	          <div class="container">
-	            <div class="carousel-caption">
-	              <h1>Neurobiology Research Projects</h1>
-	              <p style="color: #fff; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">Projects to measure brain damage and motor learning. </p>
-		      <p><a class="btn btn-large btn-primary" href="https://github.com/Armi23/MATLAB">Learn more</a></p>
+				<!-- Carousel ================================================== -->
+		<div id="myCarousel" class="carousel slide">
+			
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+			
+			<div class="carousel-inner">
 
-	            </div>
-	          </div>
-	        </div>
-	        <div class="item" style="background-image: url('/libs/img/Eigenvalue.jpg')">
-	          <div class="container">
-	            <div class="carousel-caption">
-	              <h1>Mini-mathematica package for Python</h1>
-	              <p style="color: #fff; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">Functions related to the eigenvalues of matrices. </p>
-	              <p><a class="btn btn-large btn-primary" href="https://github.com/Armi23/Eigenvalues">Learn more</a></p>
-	            </div>
-	          </div>
-	        </div>
-	        <div class="item" style="background-image: url('/libs/img/Harvard.png')">
-	          <div class="container">
-	            <div class="carousel-caption">
-	              <h1>Unofficial Harvard Windows 8 App</h1>
-	              <p style="color: #fff; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">Displays menu and shuttle times. Updates Windows 8 tiles with next or current meal. </p>
-	              <p><a class="btn btn-large btn-primary" href="https://github.com/Armi23/Harvard-App">Learn more</a></p>
-	            </div>
-	          </div>
-	        </div>
-	      </div>
-	      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-right"></span></a>
-	      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-	    </div><!-- /.carousel -->
+				<div class="item active" style="background-image: url('/libs/img/LesionPlot.jpg')">
+					<div class="container">
+						<div class="carousel-caption lesion">
+							<h1>Neurobiology Research Projects</h1>
+							<p>Projects to measure brain damage and motor learning. </p>
+							<p><a class="btn btn-large btn-primary" href="https://github.com/Armi23/MATLAB">Learn more</a></p>
 
-	    <div class="container marketing">
-	    <!-- START THE FEATURETTES -->
-	    <!-- LesionPlot Featurette-->
-	      <div class="featurette">
-	        <img class="featurette-image img-circle pull-right" src="/libs/img/LesionPlot3.jpg" alt="">
-	        <h2 class="featurette-heading">LesionPlot. <span class="text-muted">Measure the length of brain lesions.</span></h2>
-	        <p class="lead">Loads images as TIF, outlines brain slice, and measure manually the length of a lesion.</p>
-	      </div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="item" style="background-image: url('/libs/img/Eigenvalue.jpg')">
+					<div class="container">
+						<div class="carousel-caption math">
+							<h1>Mini-mathematica package for Python</h1>
+							<p class = "white-back">Functions related to the eigenvalues of matrices. </p>
+							<p><a class="btn btn-large btn-primary" href="https://github.com/Armi23/Eigenvalues">Learn more</a></p>
+						</div>
+					</div>
+				</div>
+		
+				<div class="item" style="background-image: url('/libs/img/Harvard.png')">
+					<div class="container">
+						<div class="carousel-caption app">
+							<h1>Unofficial Harvard Windows 8 App</h1>
+							<p class="white-back">Displays menu and shuttle times. Updates tiles with next meal. </p>
+							<p><a class="btn btn-large btn-primary" href="https://github.com/Armi23/Harvard-App">Learn more</a></p>
+						</div>
+					</div>
+				</div>
+			
+			</div>
+		
+			<a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+			<a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+		
+		</div><!-- /.carousel -->
 
-	      <hr class="featurette-divider">
-	      <!-- Harvard App Featurette-->
-	      <div class="featurette">
-	        <img class="featurette-image img-circle pull-left" src="/libs/img/Splash2.png" alt="">
-	        <h2 class="featurette-heading">Unofficial Harvard App. <span class="text-muted">Menus, shuttles, maps.</span></h2>
-	        <p class="lead">Live tile updates of main menu options. Shuttle timings. A maps feature is under construction. Unofficial, not endorsed.</p>
-	      </div>
+		<div class="container marketing">
 
-	      <hr class="featurette-divider">
+			<!-- START THE FEATURETTES -->
+			<!-- LesionPlot Featurette-->
+			<div class="featurette">
+				<img class="featurette-image img-circle pull-right" src="/libs/img/LesionPlot3.jpg" alt="">
+				<h2 class="featurette-heading">LesionPlot. <span class="text-muted">Measure the length of brain lesions.</span></h2>
+				<p class="lead">Loads images as TIF, outlines brain slice, and measure manually the length of a lesion.</p>
+			</div>
 
-	      <!-- /END THE FEATURETTES -->
+			<hr class="featurette-divider">
 
+			<!-- Harvard App Featurette-->
+			<div class="featurette">
+				<img class="featurette-image img-circle pull-left" src="/libs/img/Splash2.png" alt="">
+				<h2 class="featurette-heading">Unofficial Harvard App. <span class="text-muted">Menus, shuttles, maps.</span></h2>
+				<p class="lead">Live tile updates of main menu options. Shuttle timings. A maps feature is under construction. Unofficial, not endorsed.</p>
+			</div>
 
+			<hr class="featurette-divider">
+			<!-- /END THE FEATURETTES -->
 
+			<!-- FOOTER -->
+			<footer>
+				<p>
+				&copy; 2013 - 2014 Armaghan Nabi Behlum |
+				<a href="http://validator.w3.org/check?uri=http%3A%2F%2Farmaghanbehlum.com%2F">Valid HTML</a>
+				| Built with <a href="http://getbootstrap.com/">Bootstrap</a> 
+				| Source code on <a href="https://github.com/Armi23/mywebsite">Github</a>
+				</p>
+			</footer>
+		</div><!-- /.container -->
 
-	      <!-- FOOTER -->
-	      <footer>
-	        <p>
-			  &copy; 2013 - 2014 Armaghan Nabi Behlum |
-			  <a href="http://validator.w3.org/check?uri=http%3A%2F%2Farmaghanbehlum.com%2F">Valid HTML</a>
-			   | Built with <a href="http://getbootstrap.com/">Bootstrap</a> 
-			   | Source code on <a href="https://github.com/Armi23/mywebsite">Github</a>
-			</p>
-	      </footer>
-	    </div><!-- /.container -->
-
-	    <!-- Bootstrap core JavaScript
-	    ================================================== -->
-	    <!-- Placed at the end of the document so the pages load faster -->
+		<!-- Bootstrap core JavaScript ================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
 		<script type="text/javascript" src="/libs/js/jquery.js"></script>
-	    <script type="text/javascript" src="/libs/js/bootstrap.min.js"></script>
-	    <script type="text/javascript" src="/libs/js/holder.js"></script>
-	    <script src="/libs/js/headroom.js"></script>  
+		<script type="text/javascript" src="/libs/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="/libs/js/holder.js"></script>
 
-
-		<!--Import scrollUp script  -->
+		<!--Import other cool action scripts: scrollUp headroom.js  -->
 		<script type="text/javascript" src="/libs/js/jquery.scrollUp.min.js"></script>
-		<script>
-		$(function () {
-			$.scrollUp({
-				animation: 'fade',
-			});
-		});
-		$('.pill-switch').addClass('active');
+		<script type="text/javascript" src="/libs/js/headroom.js"></script>
 
-		// grab an element
-		var myElement = document.querySelector("header");
-		// construct an instance of Headroom, passing the element
-		var headroom  = new Headroom(myElement);
-		// initialise
-		headroom.init(); 
+		<script>
+
+			//  used to activate scrollUp
+			$(function () {
+				$.scrollUp({
+					animation: 'fade',
+					scrollImg: { active: true, type: 'background', src: 'img/top.png' }
+				});
+			});
+			$('.image-switch').addClass('active');
+
+			// using headroom on navbar
+			var headroom  = new Headroom(document.querySelector("header"));
+			headroom.init(); 
 
 		</script>
 	</body>
