@@ -8,49 +8,47 @@
 
 		<title>Armaghan Nabi Behlum</title>
 
-		<!-- Bootstrap core CSS -->
-		<link rel="stylesheet" type="text/css" href="public/css/bootstrap.css">
-		<link rel="stylesheet" type="text/css" href="public/css/bootstrap.min.css">
-
-		<!-- Carousel Styling -->
-		<link rel="stylesheet" type="text/css" href="public/css/carousel.css">
+		<!-- Bootstrap core CSS : Using carousel template-->
+		<link rel="stylesheet" type="text/css" href="/libs/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="/libs/css/carousel.css">
 
 		<!-- Scrollup Pill Style, also by markgoodyear from http://markgoodyear.com/2013/01/scrollup-jquery-plugin/ -->
-		<link rel="stylesheet" type="text/css" href="public/css/pill.css">
+		<link rel="stylesheet" type="text/css" href="/libs/css/pill.css">
+
+		<!-- Using headroom.js to make navbar disappear -->
+		<link rel="stylesheet" type="text/css" href="/libs/css/headroom.css">
 
 	</head>
 
 	<!-- Built from this Bootstrap template: http://twitter.github.com/bootstrap/examples/carousel.html -->
-	<!-- NAVBAR ================================================== -->
 	<body>
-	    <div class="navbar-wrapper">
-	      <div class="container">
 
-	        <div class="navbar navbar-inverse navbar-fixed-top">
-	          <div class="container">
-	    	    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
-	    	      <span class="icon-bar"></span>
-	    	      <span class="icon-bar"></span>
-	    	      <span class="icon-bar"></span>
-	    	    </button>
-	            <a class="navbar-brand">Armaghan Behlum</a>
-	            <div class="nav-collapse collapse">
-	              <ul class="nav navbar-nav">
-	                <li class="active"><a href="">Home</a></li>
-	                <li><a href="https://github.com/Armi23">Github</a></li>
-					<li><a href="http://www.linkedin.com/pub/armaghan-behlum/64/8b1/4b9">LinkedIn</a></li>
-					<li><a href="/public/pdf/resume.pdf">Resume</a></li>
-					<li><a href="mailto:behlum@college.harvard.com">Email me</a></li>
-	              </ul>
-	            </div>
-	          </div>
-	        </div>
-	      </div>
-	    </div>
+		<!-- NAVBAR ================================================== -->
+		<div>					
+			<header>
+				<div class="navbar navbar-inverse">
+		    	  	<div class="container">
+			    	    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+			    	      <span class="icon-bar"></span>
+			    	      <span class="icon-bar"></span>
+			    	      <span class="icon-bar"></span>
+			    	    </button>
+			            <a class="navbar-brand">Armaghan Behlum</a>
+			            <div class="nav-collapse collapse">
+			              <ul class="nav navbar-nav">
+			                <li class="active"><a href="">Home</a></li>
+			                <li><a href="https://github.com/Armi23">Github</a></li>
+							<li><a href="http://www.linkedin.com/pub/armaghan-behlum/64/8b1/4b9">LinkedIn</a></li>
+							<li><a href="//libs/pdf/resume.pdf">Resume</a></li>
+							<li><a href="mailto:behlum@college.harvard.com">Email me</a></li>
+			              </ul>
+			            </div>
+		          	</div>
+		        </div>
+		    </header>
+		</div>
 
-
-	    <!-- Carousel
-	    ================================================== -->
+	    <!-- Carousel ================================================== -->
 	    <div id="myCarousel" class="carousel slide">
 	      <!-- Indicators -->
 	      <ol class="carousel-indicators">
@@ -59,7 +57,7 @@
 	        <li data-target="#myCarousel" data-slide-to="2"></li>
 	      </ol>
 	      <div class="carousel-inner">
-	        <div class="item active" style="background-image: url('public/img/LesionPlot.jpg')">
+	        <div class="item active" style="background-image: url('/libs/img/LesionPlot.jpg')">
 	          <div class="container">
 	            <div class="carousel-caption">
 	              <h1>Neurobiology Research Projects</h1>
@@ -69,7 +67,7 @@
 	            </div>
 	          </div>
 	        </div>
-	        <div class="item" style="background-image: url('public/img/Eigenvalue.jpg')">
+	        <div class="item" style="background-image: url('/libs/img/Eigenvalue.jpg')">
 	          <div class="container">
 	            <div class="carousel-caption">
 	              <h1>Mini-mathematica package for Python</h1>
@@ -78,7 +76,7 @@
 	            </div>
 	          </div>
 	        </div>
-	        <div class="item" style="background-image: url('public/img/Harvard.png')">
+	        <div class="item" style="background-image: url('/libs/img/Harvard.png')">
 	          <div class="container">
 	            <div class="carousel-caption">
 	              <h1>Unofficial Harvard Windows 8 App</h1>
@@ -96,7 +94,7 @@
 	    <!-- START THE FEATURETTES -->
 	    <!-- LesionPlot Featurette-->
 	      <div class="featurette">
-	        <img class="featurette-image img-circle pull-right" src="public/img/LesionPlot3.jpg" alt="">
+	        <img class="featurette-image img-circle pull-right" src="/libs/img/LesionPlot3.jpg" alt="">
 	        <h2 class="featurette-heading">LesionPlot. <span class="text-muted">Measure the length of brain lesions.</span></h2>
 	        <p class="lead">Loads images as TIF, outlines brain slice, and measure manually the length of a lesion.</p>
 	      </div>
@@ -104,7 +102,7 @@
 	      <hr class="featurette-divider">
 	      <!-- Harvard App Featurette-->
 	      <div class="featurette">
-	        <img class="featurette-image img-circle pull-left" src="public/img/Splash2.png" alt="">
+	        <img class="featurette-image img-circle pull-left" src="/libs/img/Splash2.png" alt="">
 	        <h2 class="featurette-heading">Unofficial Harvard App. <span class="text-muted">Menus, shuttles, maps.</span></h2>
 	        <p class="lead">Live tile updates of main menu options. Shuttle timings. A maps feature is under construction. Unofficial, not endorsed.</p>
 	      </div>
@@ -112,6 +110,8 @@
 	      <hr class="featurette-divider">
 
 	      <!-- /END THE FEATURETTES -->
+
+
 
 
 	      <!-- FOOTER -->
@@ -128,13 +128,14 @@
 	    <!-- Bootstrap core JavaScript
 	    ================================================== -->
 	    <!-- Placed at the end of the document so the pages load faster -->
-		<script type="text/javascript" src="public/js/jquery.js"></script>
-	    <script type="text/javascript" src="public/js/bootstrap.min.js"></script>
-	    <script type="text/javascript" src="public/js/holder.js"></script>
+		<script type="text/javascript" src="/libs/js/jquery.js"></script>
+	    <script type="text/javascript" src="/libs/js/bootstrap.min.js"></script>
+	    <script type="text/javascript" src="/libs/js/holder.js"></script>
+	    <script src="/libs/js/headroom.js"></script>  
 
 
 		<!--Import scrollUp script  -->
-		<script type="text/javascript" src="public/js/jquery.scrollUp.min.js"></script>
+		<script type="text/javascript" src="/libs/js/jquery.scrollUp.min.js"></script>
 		<script>
 		$(function () {
 			$.scrollUp({
@@ -142,6 +143,14 @@
 			});
 		});
 		$('.pill-switch').addClass('active');
+
+		// grab an element
+		var myElement = document.querySelector("header");
+		// construct an instance of Headroom, passing the element
+		var headroom  = new Headroom(myElement);
+		// initialise
+		headroom.init(); 
+
 		</script>
 	</body>
 </html>

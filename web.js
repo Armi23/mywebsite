@@ -9,7 +9,7 @@ app.get('/', function(request, response) {
     response.send(buf.toString('utf-8'));
 });
 
-app.use("/public",express.static(path.join(__dirname, '/libs')));
+app.use(express.static(__dirname));
 
 var port = process.env.PORT || 8080;
 app.listen(port, function() {
